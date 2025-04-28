@@ -6,7 +6,7 @@ $metodo = $_SERVER["REQUEST_METHOD"];
 
 //conteudo
  $usuarios = [
-    ["id" => 1, "nome" => "Camila", "email" => "ca,ila@gamil.com"],
+    ["id" => 1, "nome" => "Camila", "email" => "camila@gamil.com"],
     ["id" => 2, "nome" => "Flavia", "email" => "flavia@gmail.com"]
 ];
 

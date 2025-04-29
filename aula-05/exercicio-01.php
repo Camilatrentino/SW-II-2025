@@ -2,9 +2,9 @@
 
 // Passo a: Criar um array associativo com os produtos
 $pessoas = [
-    ["nome" => "Camila", "idade" => 17, "sexo" => "Feminino"],
-    ["nome" => "Suzete", "idade" => 54, "sexo" => "Feminino"],
-    ["nome" => "Flavia", "idade" => 20, "sexo" => "Feminino"]
+    ["id" => 1,"nome" => "Camila", "idade" => 17, "sexo" => "Feminino"],
+    ["id" => 2, "nome" => "Suzete", "idade" => 54, "sexo" => "Feminino"],
+    ["id" => 3, "nome" => "Flavia", "idade" => 20, "sexo" => "Feminino"]
 ];
 
 // Passo b: Converter para JSON

@@ -7,6 +7,7 @@ $pessoas = json_decode($conteudo, true);
 
 // Novo produto a ser adicionado
 $novoPessoas = [
+    
     "nome" => "Jose Maria", 
     "idade" => 55, 
     "sexo" => "Masculino"

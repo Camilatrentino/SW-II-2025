@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e3f2fd;
+    margin: 0;
+    padding: 0;
+    color: #0d47a1;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 70, 140, 0.1);
+}
+
+h1 {
+    color: #1565c0;
+    margin-bottom: 20px;
+}
+
+.form-cep input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #90caf9;
+    border-radius: 6px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.form-cep button {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-cep button:hover {
+    background-color: #0d47a1;
+}
+
+.resultado {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.resultado h3 {
+    color: #0d47a1;
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+}
